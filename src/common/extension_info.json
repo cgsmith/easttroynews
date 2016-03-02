@@ -1,0 +1,21 @@
+{
+    "content_scripts": [], 
+    "description": "Just displays East Troy news.",
+    "creator": "cgsmith",
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "https://github.com/cgsmith/easttroynews",
+    "version": "1.0.0",
+    "browser_button": {
+        "caption": "East Troy",
+        "icon": "icons/button.png", 
+        "tooltipText": "East Troy",
+        "popup": {
+            "url": "popup.html",
+            "width": 400,
+            "height": 520
+        }
+    }, 
+    "name": "East Troy News"
+}
